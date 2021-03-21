@@ -10,12 +10,12 @@ module Authors
     # GET /elements/1
     def show
     end
-    
+  
     # GET /elements/new
     def new
       @element = Element.new
     end
-    
+  
     # GET /elements/1/edit
     def edit
     end
